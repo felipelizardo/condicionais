@@ -9,8 +9,8 @@
 public class exempleFor {
     public static void main(String[] args) {
         String aluno[] = {"felipe", "lucas", "matheus", "bruno", "daniel"};
-        for (int i = 0; i < aluno.length; i++) {
-            System.out.println("o indice do aluno i= " );
+        for (int x = 0; x < aluno.length; x++) {
+            System.out.println("o indice do aluno x=" + x + " é " + aluno[x]);
         }
 }
 }
